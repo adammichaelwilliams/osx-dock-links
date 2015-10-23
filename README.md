@@ -54,7 +54,7 @@ Find a square image (png) for the site you want.
 
 From here we need to take your image and convert it into an ICNS file.
 
-You can either use a site like [https://iconverticons.com/online/](https://iconverticons.com/online/))
+You can either use a site like [https://iconverticons.com/online/](https://iconverticons.com/online/)
 
 Or you can use a script I've updated from [this repo](https://github.com/stackmachine/bearweb): 
 
