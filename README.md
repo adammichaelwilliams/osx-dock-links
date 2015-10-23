@@ -2,11 +2,11 @@
 #osx-dock-links
 ##Add beautiful links to your OS X dock
 
-![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
+![alt text](https://media.giphy.com/media/NGJ8i2PleN8qs/giphy.gif)
 
 Native browser shortcuts on OS X dock are second-class citizens, let's make them better.
 
-![alt text](https://media.giphy.com/media/NGJ8i2PleN8qs/giphy.gif)
+![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
 
 ###Step 1 
 ####(skip this step if you trust me)
