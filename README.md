@@ -3,8 +3,12 @@
 
 ![alt text](https://media.giphy.com/media/NGJ8i2PleN8qs/giphy.gif)
 
-##Add beautiful links to your OS X dock
+###Add beautiful links to your OS X dock
 
+####Problem:
+![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-problem.png)
+
+####Solution:
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
 
 ###Step 1 
