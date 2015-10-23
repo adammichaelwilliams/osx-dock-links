@@ -46,7 +46,6 @@ And overwrite the Generic app in this repository (because you don't trust me)
 
 ###Step 2
 ####Don't trust anyone on the internet
-TODO Should be step 1
 
 ###Step 3
 Find a square image (png) for the site you want.
