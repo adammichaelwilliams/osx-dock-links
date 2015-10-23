@@ -22,10 +22,11 @@ var source = "Generic.app";
 
 //Change "links/" to be a random directory or user hash, so they can download again
 // Put in a directory to preserve the Name.app for zipping purposes
-var nameDir = name + "/" + name;
+//var nameDir = name + "/" + name;
+var nameDir = name;
 var destination = nameDir + ".app";
 
-fs.mkdirSync(name);
+//fs.mkdirSync(name);
 
 ncp(source, destination, function (err) {
     if (err) {
