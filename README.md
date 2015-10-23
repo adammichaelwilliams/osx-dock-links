@@ -2,12 +2,12 @@
 #osx-dock-links
 ##Add beautiful links to your OS X dock
 
-Native browser shortcuts on the OS X dock are second-class citizens, let's make them better.
+Native browser shortcuts on OS X dock are second-class citizens, let's make them better.
 
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
 
 ###Step 1 
-##(skip this step if you trust me)
+####(skip this step if you trust me)
 Download and run Platypus: [http://sveinbjorn.org/platypus](http://sveinbjorn.org/platypus)
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/platypus-1.png)
 
@@ -31,7 +31,7 @@ IMPORTANT: Make sure your click "use XML" see screenshot below:
 And overwrite the Generic app in this repository (because you don't trust me)
 
 ###Step 2
-##Don't trust anyone on the internet
+####Don't trust anyone on the internet
 TODO Should be step 1
 
 ###Step 3
@@ -42,10 +42,14 @@ From here we need to take your image and convert it into an ICNS file.
 I found a script within [this repo](https://github.com/stackmachine/bearweb) however you can use an .icns conversion website (the script uses [https://iconverticons.com/online/](https://iconverticons.com/online/)).
 
 To use the updated script from above, call the script like follows:
+```
 python icns.py {{path to your logo in png format}}
+```
 
 Example:
+```
 python icns.py github.png
+```
 
 This will create an icon.icns file
 
@@ -54,13 +58,13 @@ This will create an icon.icns file
 
 ```
 npm install
-node app.js {{link name}} {{link url}}
+node create-link.js {{link name}} {{link url}}
 ```
 Note: ensure your {{link url}} starts with http:// or https://
 
 Example:
 ```
-node app.js {{Github}} {{http://github.com}}
+node create-link.js Github http://github.com
 ```
 Note: make sure your icon.icns file from Step 3 is in the root directory of the repo
 
