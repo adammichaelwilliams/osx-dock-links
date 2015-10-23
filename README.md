@@ -4,29 +4,29 @@
 
 Native browser shortcuts on the OS X dock are second-class citizens, let's make them better.
 
-![alt text](https://github.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
+![alt text](https://github.com/kainolophobia/osx-dock-links/tree/master/images/demo-image.png)
 
 ###Step 1 
 ##(skip this step if you trust me)
 Download and run Platypus: [http://sveinbjorn.org/platypus](http://sveinbjorn.org/platypus)
-![alt text](https://github.com/kainolophobia/osx-dock-links/master/images/platypus1.png)
+![alt text](https://github.com/kainolophobia/osx-dock-links/tree/master/images/platypus1.png)
 
 Enter the following settings: 
 App Name: Generic
 Script Path: {path to "shell_open_url" in this repo}
-![alt text](https://github.com/kainolophobia/osx-dock-links/master/images/platypus2.png)
+![alt text](https://github.com/kainolophobia/osx-dock-links/tree/master/images/platypus2.png)
 
 Double click on the Platypus icon and change it to generic.icns from the repository
-![alt text](https://github.com/kainolophobia/osx-dock-links/master/images/platypus-image.png)
+![alt text](https://github.com/kainolophobia/osx-dock-links/tree/master/images/platypus-image.png)
 
 Add the argument genericURL (make sure to click apply!)
-![alt text](https://github.com/kainolophobia/osx-dock-links/master/images/platypus-3.png)
+![alt text](https://github.com/kainolophobia/osx-dock-links/tree/master/images/platypus-3.png)
 (argument screen)
 
 Click Create 
 
 IMPORTANT: Make sure your click "use XML" see screenshot below:
-![alt text](https://github.com/kainolophobia/osx-dock-links/master/images/platypus-4.png)
+![alt text](https://github.com/kainolophobia/osx-dock-links/tree/master/images/platypus-4.png)
 
 And overwrite the Generic app in this repository (because you don't trust me)
 
