@@ -1,0 +1,5 @@
+#!/bin/sh
+
+python -mwebbrowser $1 &
+exit
+
