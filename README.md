@@ -8,17 +8,19 @@
 ####Problem:
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-problem.png)
 
-1. Normal web shortcuts are forced to the right of the dock
-2. Name is stuck at https-//{{url}}/.webloc
-3. Changing the icon is more of a pain than this tutorial
-
 ####Solution:
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
 
-1. Build an OS X app that opens a link via app metadata 
-  * or use the provided Generic.app if you trust me
-2. Use a script to make as many link "apps" as you want
-3. Choose any icon(s) you want
+## Quickstart
+
+1. [Create an .icns file from a logo](https://iconverticons.com/online/)
+  * example source: [https://github.com/logos](https://github.com/logos)
+2. Save as icon.icns in this repository's directory
+3. npm install && node create-link.js Github http://github.com
+4. Drag Github.app into dock
+
+
+## Slowstart
 
 ###Step 1 
 ####(skip this step if you trust me)
@@ -92,3 +94,15 @@ Note: the python call in the shell script should call your default browser
 
 Repeat steps 3 and 4 to your hearts content
 
+
+## Motivations
+### Problem
+1. Normal web shortcuts are forced to the right of the dock
+2. Name is stuck at https-//{{url}}/.webloc
+3. Changing the icon is more of a pain than this tutorial
+
+### Solution
+1. Build an OS X app that opens a link via app metadata 
+  * or use the provided Generic.app if you trust me
+2. Use a script to make as many link "apps" as you want
+3. Choose any icon(s) you want
