@@ -10,6 +10,8 @@
 
 ####Solution:
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
+####Added bonus:
+![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image-2.png)
 
 ## Quickstart - Example
 
