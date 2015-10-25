@@ -11,16 +11,18 @@
 ####Solution:
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image.png)
 
-## Quickstart
+## Quickstart - Example
 
 1. [Create an .icns file from a logo](https://iconverticons.com/online/)
   * example source: [https://github.com/logos](https://github.com/logos)
-2. Save as icon.icns in this repository's directory
+2. Save as icon.icns in this repository's root directory
 3. npm install && node create-link.js Github http://github.com
+  * creates .app file in same directory
 4. Drag Github.app into dock
 
+Note: the app links will probably show up as "unrecognized" and will fail to start. If you trust me, allow them. If you don't trust me, follow the Slowstart to create your own Generic.app
 
-## Slowstart
+## Slowstart - Tutorial
 
 ###Step 1 
 ####(skip this step if you trust me)
@@ -92,7 +94,7 @@ Note: the python call in the shell script should call your default browser
 
 ###Step 5
 
-Repeat steps 3 and 4 to your hearts content
+Repeat steps 3 and 4 to your heart's content
 
 
 ## Motivations
