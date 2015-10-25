@@ -29,7 +29,7 @@ Note: the app links will probably show up as "unrecognized" and will fail to sta
 ###Step 1 
 ####(skip this step if you trust me)
 
-Build your own Generic.app with [Platypus](http://sveinbjorn.org/platypus) following [this guide](https://github.com/kainolophobia/osx-dock-links/blob/master/build-generic-link.md).
+Build your own Generic.app with [Platypus](http://sveinbjorn.org/platypus) following [this guide](https://github.com/kainolophobia/osx-dock-links/blob/master/generic-link-guide.md).
 
 If you trust that I don't have malicious intent, you can use the Generic.app that I've provided in this repo. You'll be warned about running "unidentified author" code either way. If you want to have a signed app, you can [sign Platypus](https://github.com/sveinbjornt/Platypus/issues/10) (and thus the apps it generates) yourself as it is an [open source project](https://github.com/sveinbjornt/Platypus) that you can build yourself.
 
