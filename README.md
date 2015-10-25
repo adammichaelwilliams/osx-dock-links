@@ -27,26 +27,12 @@ Note: the app links will probably show up as "unrecognized" and will fail to sta
 ###Step 1 
 ####(skip this step if you trust me)
 
-Download and run Platypus: [http://sveinbjorn.org/platypus](http://sveinbjorn.org/platypus)
-![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/platypus-1.png)
+Build your own Generic.app with [Platypus](http://sveinbjorn.org/platypus) following [this guide](https://github.com/kainolophobia/osx-dock-links/blob/master/build-generic-link.md).
 
-Enter the following settings: 
-App Name: Generic
-Script Path: {path to "shell_open_url" in this repo}
-![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/platypus-2.png)
+If you trust that I don't have malicious intent, you can use the Generic.app that I've provided in this repo. You'll be warned about running "unidentified author" code either way. If you want to have a signed app, you can [sign Platypus](https://github.com/sveinbjornt/Platypus/issues/10) (and thus the apps it generates) yourself as it is an [open source project](https://github.com/sveinbjornt/Platypus) that you can build yourself.
 
-Double click on the Platypus icon and change it to generic.icns from the repository
-![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/platypus-image.png)
-
-Add the argument genericURL (make sure to click apply!)
-![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/platypus-3.png)
-
-Click Create 
-
-IMPORTANT: Make sure your click "use XML" see screenshot below:
-![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/platypus-4.png)
-
-And overwrite the Generic app in this repository (because you don't trust me)
+####Background:
+We'll use this Generic "app" as a template to create all of our links from. The app is a simple shell script wrapped in an OS X app layer, that opens your default browser window using a URL from the metadata in the app. The code in this repo was initially meant to be a hosted service (go ahead and create one!) however you could easily skip Plaptypus and [use AppleScript](https://www.reddit.com/r/osx/comments/3pwz2v/nativefeeling_os_x_dock_links/cwa5s4q) to make an "app" that does the same thing. I chose this route because I couldn't figure out how to replace both the icon and URL programmatically on a linux box (in the hour that I originally spent on this project), and so we're left with this Platypus-based solution.
 
 ###Step 2
 ####Don't trust anyone on the internet
@@ -108,3 +94,7 @@ Repeat steps 3 and 4 to your heart's content
   * or use the provided Generic.app if you trust me
 2. Use a script to make as many link "apps" as you want
 3. Choose any icon(s) you want
+
+### Result
+1. Beautiful links anywhere in your OS X dock
+2. Bonus: spotlight searchable!
