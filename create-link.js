@@ -14,8 +14,8 @@ if(!process.argv || process.argv.length != 4) {
 }
 
 var name = process.argv[2];
-if (/^http:\/\//.exec(process.argv[3]) || /^http:\/\//.exec(process.argv[3])) {
-  var url = process.argv[3]; //TODO ensure url has http://
+if (/^http:\/\//.exec(process.argv[3]) || /^https:\/\//.exec(process.argv[3])) {
+  var url = process.argv[3];
 } else {
   console.log('not a valid url!')
 }
