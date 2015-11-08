@@ -13,6 +13,13 @@
 ####Added bonus:
 ![alt text](https://raw.githubusercontent.com/kainolophobia/osx-dock-links/master/images/demo-image-2.png)
 
+## Demo - Github Link 
+
+1. Clone repo
+2. Drag Github.app into dock
+
+Note: "app" will show up as unrecognized, if you're not a friend of mine, read the Slowstart Tutorial below to build everything yourself
+
 ## Quickstart - Example
 
 1. [Create an .icns file from a logo](https://iconverticons.com/online/)
